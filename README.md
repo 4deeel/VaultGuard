@@ -28,7 +28,7 @@ VaultGuard++ is a secure, command-line password manager built in C++ for Windows
 ## Installation
 1. **Install Dependencies**:
 
-   # In MSYS2 MinGW64 terminal
+   ### In MSYS2 MinGW64 terminal
    pacman -Syu
    
    pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-libsodium mingw-w64-x86_64-openssl mingw-w64-x86_64-make mingw-w64-x86_64-python
@@ -48,10 +48,12 @@ VaultGuard++ is a secure, command-line password manager built in C++ for Windows
 5. **Build the Project**:
    
    cd /path/to/VaultGuard
+   
    mingw32-make clean
+   
    mingw32-make
 
-6. **Run the Application**:
+7. **Run the Application**:
 
    .\bin\vaultguard.exe
    
@@ -72,5 +74,5 @@ VaultGuard++ is a secure, command-line password manager built in C++ for Windows
 - **Google Drive API** for cloud backup.
 - **MSYS2** for the build environment.
 
-Prepared by: Muhammad Adeel Haider
-Institution: BS Cyber Security, Air University
+**Muhammad Adeel Haider - 241541**
+BS Cyber Security, Air University
