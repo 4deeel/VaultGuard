@@ -30,26 +30,28 @@ VaultGuard++ is a secure, command-line password manager built in C++ for Windows
 
    # In MSYS2 MinGW64 terminal
    pacman -Syu
+   
    pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-libsodium mingw-w64-x86_64-openssl mingw-w64-x86_64-make mingw-w64-x86_64-python
+   
    pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client
    
 
-2. **Set Up Google Drive API**:
+3. **Set Up Google Drive API**:
    - Create a Google Cloud project at [console.cloud.google.com](https://console.cloud.google.com).
    - Enable Google Drive API, create OAuth 2.0 credentials, and download `credentials.json`.
    - Place `credentials.json` in the project root.
 
-3. **Clone or Set Up Project**:
+4. **Clone or Set Up Project**:
    - Ensure all source files are in the structure above.
    - Copy `backup.py` and `credentials.json` to the project root.
 
-4. **Build the Project**:
+5. **Build the Project**:
    
    cd /path/to/VaultGuard
    mingw32-make clean
    mingw32-make
 
-5. **Run the Application**:
+6. **Run the Application**:
 
    .\bin\vaultguard.exe
    
