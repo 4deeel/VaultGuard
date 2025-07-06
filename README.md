@@ -64,15 +64,6 @@ VaultGuard++ is a secure, command-line password manager built in C++ for Windows
 - **Clipboard**: Copied credentials may be vulnerable if the system is compromised.
 - **Cloud Backup**: Files are encrypted before upload; protect `credentials.json`.
 
-## Contributing
-- Fork the repository and submit pull requests for bug fixes or features.
-- Report issues via the repository’s issue tracker.
-- Suggested improvements: GUI, cross-platform support, native cloud integration.
-
-## Acknowledgments
-- **libsodium** and **OpenSSL** for encryption.
-- **Google Drive API** for cloud backup.
-- **MSYS2** for the build environment.
 
 **Muhammad Adeel Haider - 241541**
 BS Cyber Security, Air University
